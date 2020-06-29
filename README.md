@@ -1,3 +1,9 @@
+# Philly Clicky Game w/React
+
+<img src="/src/images/appGif.gif" width=600/> 
+### This is a memory game built with React, featuring iconic locations and images of the City of Brotherly Love: Philadelphia 
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
