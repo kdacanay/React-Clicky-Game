@@ -1,0 +1,100 @@
+
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  font-family: 'Amatic SC', cursive;
+  /* font-family: 'Cinzel', serif; */
+  /* font-family: 'Architects Daughter', cursive; */
+  
+}
+body {
+  display: block;
+}
+html {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+html {
+  line-height: 1.15;
+  /* -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%; */
+}
+html {
+  display: block;
+}
+/* .container {
+  display: -ms-flexbox;
+  display: flex;
+  min-height: 80%;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -ms-flex-pack: center;
+  justify-content: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  width: 90%;
+  margin: 0 auto;
+} */
+
+/* 
+@media (min-width: 768px) {
+  .container-fluid {
+      max-width: 1000px;
+  }
+  } */
+  
+  /* @media (min-width: 576px) {
+  .container-fluid {
+      max-width: 540px;
+  }
+} */
+  
+  .container-fluid {
+      display: -ms-flexbox;
+      display: flex;
+      min-height: 50%;
+      -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+      -ms-flex-pack: center;
+      justify-content: center;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      width: 100%;
+      min-width: 1000px;
+      margin: 0 auto;
+  }
+  
+  @media screen and (min-width: 750px) {
+      .container-fluid {
+        min-width: 500px;
+        margin:auto;}
+  }
+   @media screen and (min-width: 550px) {
+      .container-fluid {min-width: 500px;
+        margin-left: 70px;
+      } 
+  }
+  @media screen and (min-width: 470px) {
+    .container-fluid {
+      min-width: 500px;
+      margin-left: 60px;
+    }
+}
+  /* @media screen and (min-width: 570px) {
+      .container-fluid {min-width:00px;}
+  }  */
+    
+  @media screen and (min-width: 950px) {
+    .container-fluid {
+      min-width: 1370px;
+      margin-left:40px;}
+}
+  .wrapper {
+    /* background-color: blueviolet; */
+    background-image: url('../src/images/cityHall.jpg');
+    background-size: cover;
+    background-repeat: repeat;
+    
+  }
+

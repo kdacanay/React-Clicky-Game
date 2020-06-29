@@ -1,0 +1,102 @@
+/* .card {
+  background: #fff;
+  border-radius: 2px;
+  min-height: 150px;
+  min-width: 150px;
+  margin: 10em;
+  position: relative;
+  width: 200px;
+  box-shadow: 0 3px 50px black, 0 3px 50px black;
+  text-align: left;
+  font-size: 20px;;
+} */
+.img {
+  height: 100%;
+  overflow: hidden;
+  text-align: center;
+  transition-property: all;
+  transition-duration: .3s;
+}
+.img:hover {
+  background: #676767;
+  color: #bd1015;
+  border-radius: 100%;
+}
+
+.card > .img-container > img {
+  width: 100%;
+  transition-property: all;
+  transition-duration: .5s;
+}
+
+
+.card:hover > .img-container:hover > img:hover {
+  background: #676767;
+  color: #bd1015;
+  border-radius: 50%;
+}
+
+p {
+  padding-top: 1em;
+}
+.card-body {
+  padding: 0px;
+}
+.card > .content {
+  padding-left: 1rem;
+  padding-right: 1rem;
+  font-size: 20px;
+  transition-property: all;
+  transition-duration: .5s;
+ }
+ .card:hover > .content {
+  background: #676767;
+  color: #bd1015;
+  border-radius: 50%;
+ }
+
+.card > .content > ul {
+  list-style-type: none;
+}
+
+.card > .content > ul > li {
+  margin-top: 18px;
+}
+
+
+.card {
+  background-size: cover;
+  background-position: 50%;
+  /* height: 170px; */
+  /* width: 170px; */
+  margin: 5px 10px;
+  padding-bottom: 20px;
+  border: 5px solid #f1f1f1;
+  border-radius: 3px;
+  -webkit-box-shadow: 0 10px 50px rgba(0,0,0,.16), 0 3px 50px rgba(0,0,0,.23);
+  box-shadow: 0 10px 50px rgba(0, 0, 0, 0.16), 0 3px 50px rgba(0,0,0,.23);
+  cursor: pointer; 
+  transition-property: all;
+  transition-duration: .2s;
+  /* transition-timing-function: linear; */
+}
+.card:hover {
+  background: #676767;
+  color: #bd1015;
+  border-bottom-left-radius: 35%;
+  border-bottom-right-radius: 35%;
+  /* transform: rotateX(180deg); */
+}
+
+.card-img-top {
+  transition-property: all;
+  transition-duration: .2s;
+  transition-timing-function: linear;
+}
+
+.card-img-top:hover {
+  background: #676767;
+  color: #bd1015;
+  border-bottom-left-radius: 35%;
+  border-bottom-right-radius: 35%;
+}

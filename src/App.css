@@ -1,0 +1,27 @@
+
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+html {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+html {
+  line-height: 1.15;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+html {
+  display: block;
+}
+
+.wrapper {
+  background-color: blueviolet;
+  background-image: url("../public/images/cityHall.jpg");
+  background-size: cover;
+  background-repeat: repeat;
+}
